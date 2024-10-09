@@ -12,42 +12,63 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="navbar">
-    <div class="container">
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mynavbar">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Homepage</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">External</a>
-          </li>
-        </ul>
+  <header class="bg-dark">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg sticky-bottom justify-content-center navbar-dark">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navs">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navs">
+          <ul class="navbar-nav nav-pills">
+            <li class="nav-item"><a href="" class="nav-link"></a></li>
+            <li class="nav-item"><a href="#myHomepage" class="nav-link">Homepage</a></li>
+            <li class="nav-item"><a href="#myAboutus" class="nav-link">AboutUs</a></li>
+            <li class="nav-item"><a href="#myServices" class="nav-link">Services</a> </li>
+            <li class="nav-item"><a href="#myContact" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#myExternal" class="nav-link">External</a></li>
+          </ul>
+        </div>
 
+    </div>
+
+
+    </nav>
+  </header>
+  <!-------------home----------->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/bg-1.jpg" class="d-block w-100 object-fit-cover" height="500" alt="...">
+        <div class="carousel-caption p-5 mb-5">
+          <h1>CONQUER</h1>
+          <p>Simple Bootsrap Template</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/bg-1.jpg" class="d-block w-100 object-fit-cover" height="500" alt="...">
+        <div class="carousel-caption p-5 mb-5">
+          <h1>Item</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/bg-1.jpg" class="d-block w-100 object-fit-cover" height="500" alt="...">
+        <div class="carousel-caption p-5 mb-5">
+          <h2>Item2</h2>
+        </div>
       </div>
     </div>
-  </nav>
-  <!-------------home----------->
-  <div class="home">
-    <div class="content">
-      <h1> CONQUER</h1>
-      <h5>Simple bootstrap Template</h5>
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
   <!-----------home---------------->
+
   <!-------------About-------------->
   <section class="About" id="About">
     <div class="container mt-5">
@@ -138,81 +159,160 @@
       </div>
     </div>
   </div>
-      <!---------------Services------------------------------------>
-      <section class="Services" id="#Services">
-        <div class="service">
-          <div class="container">
-            <img src="./img/bg-2.jpg" class="img-fluid " alt="...">
-          </div>
-        </div>
-      </section>
-      <!----Services--End----------------------------->
+  <!---------------Services------------------------------------>
+  <section class=" container-fluid services mt-5 p-0" id="#Services">
 
-      <div class="container mt-5 border border-5 ">
-        <div class="row  row-cols-1 row-cols-md-4 g-4">
-          <!-- Card 1 -->
-          <div class="col">
-            <div class="card ">
-              <img src="img/4-1.jpg" class="img-fluid w-100" alt="Responsive image">
-              <div class="card-body">
-                <h5 class="card-title">Column one</h5>
-                <p class="card-text">Ut ac odio scelerisque ante ornare commodo. sed faucibus</p>
-              </div>
-            </div>
-          </div>
 
-          <!-- Card 2 -->
-          <div class="col ">
-            <div class="card ">
-              <img src="img/4-2.jpg" class="img-fluid w-100" alt="Responsive image">
-              <div class="card-body">
-                <h5 class="card-title">Column two</h5>
-                <p class="card-text">Ut ac odio scelerisque ante ornare commodo. sed faucibus.</p>
-              </div>
-            </div>
-          </div>
+    <div class="card  text-center">
+      <img src="./img/bg-2.jpg" class=" bg-image" height="300" width="100%" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title text-white">Our Services</h5>
+        <p class="card-text text-white">
+          This is a wider card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.
+        </p>
 
-          <!-- Card 3 -->
-          <div class=" col">
-            <div class="card">
-              <img src="img/4-3.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">column three</h5>
-                <p class="card-text">Ut ac odio scelerisque ante ornare commodo. sed faucibus.</p>
-              </div>
-            </div>
-          </div>
+      </div>
+    </div>
+  </section>
+  <!----Services--End----------------------------->
 
-          <!-- Card 4 -->
-          <div class=" col">
-            <div class="card">
-              <img src="img/4-4.jpg" class="card-img-top" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Column four</h5>
-                <p class="card-text">Ut ac odio scelerisque ante ornare commodo. sed faucibus.</p>
-              </div>
-            </div>
+  <div class="container mt-5 border border-5 ">
+    <div class="row  row-cols-1 row-cols-md-4 g-4">
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="card ">
+          <img src="img/4-1.jpg" class="img-fluid w-100" alt="Responsive image">
+          <div class="card-body">
+            <h5 class="card-title">Column one</h5>
+            <p class="card-text">Ut ac odio scelerisque ante ornare commodo. sed faucibus</p>
           </div>
         </div>
       </div>
 
-      <!--------one big column-------->
-      <div class="container">
-        <div class="col-12 d-flex justify-content-center" style="width: 58rem;">
-          <div class="card md-3 ">
-
-            <img src="./img/4-5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">One Big column</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-
-            </div>
+      <!-- Card 2 -->
+      <div class="col ">
+        <div class="card ">
+          <img src="img/4-2.jpg" class="img-fluid w-100" alt="Responsive image">
+          <div class="card-body">
+            <h5 class="card-title">Column two</h5>
+            <p class="card-text">Ut ac odio scelerisque ante ornare commodo. sed faucibus.</p>
           </div>
         </div>
+      </div>
 
-        <!-----End------>
-        <script src=".bootstrap/bootstrap.bundle.min.js"></script>
+      <!-- Card 3 -->
+      <div class=" col">
+        <div class="card">
+          <img src="img/4-3.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">column three</h5>
+            <p class="card-text">Ut ac odio scelerisque ante ornare commodo. sed faucibus.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class=" col">
+        <div class="card">
+          <img src="img/4-4.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Column four</h5>
+            <p class="card-text">Ut ac odio scelerisque ante ornare commodo. sed faucibus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------one big column-------->
+  <div class="container mt-5">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="card md-3 ">
+
+        <img src="./img/4-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">One Big column</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-----End------>
+  <!----Contact-->
+
+  <div class="container-fluid mt-5 p-0  ">
+    <div class="card text-center">
+      <img src="./img/bg-3.jpg" class="bg-image" height="600" width="100%" alt="">
+      <div class="card-img-overlay">
+        <div class="d-flex justify-content-center align-items-center h-100">
+         
+            <div class="text-white text-center">
+              <div class="container mt-5">
+                <div class="row justify-content-center ">
+                  <div class="col-12 border-5 ">
+                    <h2 class="text-center mb-4 text-shadow">Contact form</h2>
+                    <form>
+                      <div class="mb-3 opacity-50">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <div class="row ">
+                        <!---------------Left Column (Name, Email, Suct)----->
+                        <div class="col-lg-6 opacity-50">
+                          <div class="mb-3">
+                            <label for="name" class="form-label"></label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your full name"
+                              required>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                              placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="subject" class="form-label"></label>
+                            <input type="text" class="form-control" id="subject" placeholder="Enter the subject"
+                              required>
+                          </div>
+                        </div>
+
+                        <!--------- Right Column (Mage)--->
+                        <div class="col-6 opacity-50">
+                          <div class="mb-3 h-100">
+                            <label for="message" class="form-label"></label>
+                            <textarea class="form-control" id="message" rows="8" placeholder="Enter your message"
+                              required> </textarea>
+                              <div class="col-12 mt-5">
+                                <button type="submit" class="btn btn-dark border">Sign in</button>
+                              </div>
+                          </div>
+                          
+
+                        </div>
+
+                      </div>
+
+                      <!------- Submit Button -->
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="bootstrap/library/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
