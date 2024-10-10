@@ -164,7 +164,7 @@
 
 
     <div class="card  text-center">
-      <img src="./img/bg-2.jpg" class=" bg-image" height="300" width="100%" alt="...">
+      <img src="./img/bg-2.jpg" class=" object-fit-cover " height="300" width="100%" alt="...">
       <div class="card-img-overlay">
         <h5 class="card-title text-white">Our Services</h5>
         <p class="card-text text-white">
@@ -177,7 +177,7 @@
   </section>
   <!----Services--End----------------------------->
 
-  <div class="container mt-5 border border-5 ">
+  <div class="container mt-5  ">
     <div class="row  row-cols-1 row-cols-md-4 g-4">
       <!-- Card 1 -->
       <div class="col">
@@ -245,72 +245,69 @@
 
   <div class="container-fluid mt-5 p-0  ">
     <div class="card text-center">
-      <img src="./img/bg-3.jpg" class="bg-image" height="600" width="100%" alt="">
+      <img src="./img/bg-3.jpg" class="object-fit-cover " height="775" width="100%" alt="">
       <div class="card-img-overlay">
         <div class="d-flex justify-content-center align-items-center h-100">
-         
-            <div class="text-white text-center">
-              <div class="container mt-5">
-                <div class="row justify-content-center ">
-                  <div class="col-12 border-5 ">
-                    <h2 class="text-center mb-4 text-shadow">Contact form</h2>
-                    <form>
-                      <div class="mb-3 opacity-50">
-                        <label for="exampleFormControlTextarea1" class="form-label"></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+          <div class="text-white text-center">
+            <div class="container mt-5">
+              <div class="row justify-content-center ">
+                <div class="col-12  ">
+                  <h2 class="text-center mb-4 text-shadow">Contact form</h2>
+                  <form>
+                    <div class="mb-3 opacity-50">
+                      <label for="exampleFormControlTextarea1" class="form-label"></label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="row ">
+                      <!---------------Left Column (Name, Email, Suct)----->
+                      <div class="col-lg-6 opacity-50">
+                        <div class="mb-3">
+                          <label for="name" class="form-label"></label>
+                          <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label"></label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                          <label for="subject" class="form-label"></label>
+                          <input type="text" class="form-control" id="subject" placeholder="Enter the subject" required>
+                        </div>
                       </div>
-                      <div class="row ">
-                        <!---------------Left Column (Name, Email, Suct)----->
-                        <div class="col-lg-6 opacity-50">
-                          <div class="mb-3">
-                            <label for="name" class="form-label"></label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your full name"
-                              required>
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label"></label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                              placeholder="name@example.com">
-                          </div>
-                          <div class="mb-3">
-                            <label for="subject" class="form-label"></label>
-                            <input type="text" class="form-control" id="subject" placeholder="Enter the subject"
-                              required>
+
+                      <!--------- Right Column (Mage)--->
+                      <div class="col-md-6 opacity-50">
+                        <div class="mb-3 h-100">
+                          <label for="message" class="form-label"></label>
+                          <textarea class="form-control" id="message" rows="8" placeholder="Enter your message"
+                            required> </textarea>
+                          <div class="col-12 mt-5">
+                            <button type="submit" class="btn btn-dark border">Sign in</button>
                           </div>
                         </div>
 
-                        <!--------- Right Column (Mage)--->
-                        <div class="col-6 opacity-50">
-                          <div class="mb-3 h-100">
-                            <label for="message" class="form-label"></label>
-                            <textarea class="form-control" id="message" rows="8" placeholder="Enter your message"
-                              required> </textarea>
-                              <div class="col-12 mt-5">
-                                <button type="submit" class="btn btn-dark border">Sign in</button>
-                              </div>
-                          </div>
-                          
-
-                        </div>
 
                       </div>
 
-                      <!------- Submit Button -->
+                    </div>
 
-                    </form>
-                  </div>
+                    <!------- Submit Button -->
+
+                  </form>
                 </div>
               </div>
-
             </div>
-          
+
+          </div>
+
         </div>
       </div>
 
     </div>
 
   </div>
-
 
   <script src="bootstrap/library/bootstrap.bundle.min.js"></script>
 </body>
